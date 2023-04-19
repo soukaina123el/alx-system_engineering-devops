@@ -1,0 +1,2 @@
+#!/bin/bash
+prinft "%0\n" $(( $((5#$(echo $water | tr water 01234))) + $((5#$(echo $stir | tr stir. 01234))) )) | tr 0123456 bestcholl
